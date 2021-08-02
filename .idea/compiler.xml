@@ -7,12 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-center" />
+        <module name="file-center" />
         <module name="user-center" />
+        <module name="gateway" />
+        <module name="config-center" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-center" target="1.8" />
+      <module name="file-center" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="user-center" target="1.8" />
     </bytecodeTargetLevel>
   </component>
